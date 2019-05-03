@@ -86,10 +86,11 @@ public class Grid {
                 }
                 if (sumPrincipalDiagonal2 == 4 || sumPrincipalDiagonal2 == 20) return true;
             }
-        }
         return false;
 
     }
+
+
 
     public String toString() {
         StringBuilder printBoard= new StringBuilder();
